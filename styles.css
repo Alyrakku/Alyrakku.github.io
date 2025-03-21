@@ -228,8 +228,8 @@ body {
 .fa-figma {color: #F24E1E;}
 
 img[alt="VSCode"], img[alt="Canva"] {
-    width: clamp(1rem, 3.5vw, 2rem); 
-    height: clamp(1rem, 3.5vw, 2rem);
+    width: clamp(2rem, 3.5vw, 3rem); 
+    height: clamp(2rem, 3.5vw, 3rem);
     transition: transform 0.3s ease, color 0.3s ease;
     object-fit: contain;
 }
@@ -365,79 +365,4 @@ footer .fa-heart {
     animation: pulse 2s infinite;
 }
 
-@media (min-width: 1024px) {
-    
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .hero-img {
-        width: 150px;
-    }
-
-    .section-title {
-        font-size: 1.5rem;
-    }
-
-    .skill-card, .project-card {
-        margin-bottom: 20px;
-    }
-
-    .tech-icons i {
-        font-size: 37px;
-    }
-}
-
-@media (max-width: 768px) {
-    .navbar-nav {
-        text-align: center;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .hero-img {
-        width: 150px;
-    }
-
-    .section-title {
-        font-size: 1.5rem;
-    }
-
-    .skill-card, .project-card {
-        margin-bottom: 20px;
-    }
-
-    .tech-icons i {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 1.5rem;
-    }
-
-    .hero .btn {
-        font-size: 14px;
-        padding: 10px 15px;
-    }
-
-    .section-title {
-        font-size: 1.25rem;
-    }
-
-    .skill-card, .project-card {
-        padding: 20px;
-    }
-
-    .tech-icons i {
-        font-size: 20px;
-    }
-
-    footer {
-        font-size: 0.9rem;
-    }
-}
 
