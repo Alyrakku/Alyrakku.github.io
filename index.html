@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imgs/icono.ico">
+    <title>GeekyPawz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-4">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <span class="theme-toggle">🌙</span>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="imgs/Geeky.png" alt="Foto de perfil" class="hero-img">
+            <h1>Hola, soy <span class="highlight">GeekyPawz</span></h1>
+            <p class="lead">Programadora creativa que da vida a ideas con <span class="highlight">código y diseño</span>.</p>
+            <a href="#projects" class="btn btn-outline-dark mt-3">Explora mis proyectos</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="row align-items-center">
+                <div class="col-12 col-md-7 mb-4 mb-md-0">
+                    <p>Desarrolladora Front-End Jr. apasionada por fusionar <strong>tecnología</strong> y <strong>creatividad</strong>. Mi misión es construir experiencias digitales que inspiren, funcionen a la perfección y dejen una huella. Con un ojo para el diseño y manos en el código, transformo conceptos en realidades interactivas.</p>
+                    <p>Fuera del teclado, me inspiro en el arte, la música y la naturaleza, siempre buscando la próxima chispa para mi siguiente proyecto.</p>
+                </div>
+                <div class="col-12 col-md-5 text-center">
+                    <div class="p-3">
+                        <i class="fas fa-code fa-3x pulse"></i>
+                        <p class="mt-3"><strong>Exploradora del Código</strong><br>Especializada en interfaces mágicas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="row text-center">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="skill-card shadow-sm">
+                        <i class="fas fa-laptop-code skill-icon"></i>
+                        <h5>Front-End</h5>
+                        <div class="tech-icons">
+                            <i class="fab fa-html5" title="HTML5"></i>
+                            <i class="fab fa-css3-alt" title="CSS3"></i>
+                            <i class="fab fa-js" title="JavaScript"></i>
+                            <i class="fab fa-react" title="React"></i>
+                            <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="skill-card shadow-sm">
+                        <i class="fas fa-server skill-icon"></i>
+                        <h5>Back-End</h5>
+                        <div class="tech-icons">
+                            <i class="fab fa-node-js" title="Node.js"></i>
+                            <i class="fab fa-python" title="Python"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="skill-card shadow-sm">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h5>Herramientas</h5>
+                        <div class="tech-icons">
+                            <i class="fab fa-github" title="Github"></i>
+                            <i class="fab fa-figma" title="Figma"></i>
+                            <img src="imgs/vscode.png" alt="VSCode" title="VSCode">
+                            <img src="imgs/canva.png" alt="Canva" title="Canva">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="row">
+                <!-- Proyectos visibles -->
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h5 class="card-title"><strong>GeekyWebverse</strong></h5>
+                            <p class="card-text">Reseñas anime y videojuegos.</p>
+                            <div class="tech mb-3">
+                                <i class="fab fa-html5" title="HTML5"></i>
+                                <i class="fab fa-css3-alt" title="CSS3"></i>
+                                <i class="fab fa-js" title="JavaScript"></i>
+                                <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                            </div>
+                            <a href="https://geekypawz.github.io/geekywebverse/" target="_blank" class="btn btn-outline-primary btn-sm me-2" data-lang="live-demo">Demo en vivo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h5 class="card-title"><strong>NULU-VET</strong></h5>
+                            <p class="card-text">Servicio de veterinaria integral.</p>
+                            <div class="tech mb-3">
+                                <i class="fab fa-html5" title="HTML5"></i>
+                                <i class="fab fa-css3-alt" title="CSS3"></i>
+                                <i class="fab fa-js" title="JavaScript"></i>
+                                <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                            </div>
+                            <a href="https://geekypawz.github.io/veterinaria.github.io/" target="_blank" class="btn btn-outline-primary btn-sm me-2" data-lang="live-demo">Demo en vivo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h5 class="card-title"><strong>Alphazero-one</strong></h5>
+                            <p class="card-text">Reparación de Computadoras.</p>
+                            <div class="tech mb-3">
+                                <i class="fab fa-html5" title="HTML5"></i>
+                                <i class="fab fa-css3-alt" title="CSS3"></i>
+                                <i class="fab fa-js" title="JavaScript"></i>
+                                <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                            </div>
+                            <a href="https://geekypawz.github.io/alphazero/" target="_blank" class="btn btn-outline-primary btn-sm me-2" data-lang="live-demo">Demo en vivo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Proyectos ocultos -->
+                <div class="col-12 col-md-4 mb-4 hidden-project">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h5 class="card-title"><strong>Minimalist Gallery</strong></h5>
+                            <p class="card-text">Imágenes adorables. </p>
+                            <div class="tech mb-3">
+                                <i class="fab fa-html5" title="HTML5"></i>
+                                <i class="fab fa-css3-alt" title="CSS3"></i>
+                                <i class="fab fa-js" title="JavaScript"></i>
+                                <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                            </div>
+                            <a href="https://geekypawz.github.io/minimalist-gallery/" target="_blank" class="btn btn-outline-primary btn-sm me-2" data-lang="live-demo">Demo en vivo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 hidden-project">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h5 class="card-title"><strong>Paw-Memory</strong></h5>
+                            <p class="card-text">Juego de memoria con perritos.</p>
+                            <div class="tech mb-3">
+                                <i class="fab fa-html5" title="HTML5"></i>
+                                <i class="fab fa-css3-alt" title="CSS3"></i>
+                                <i class="fab fa-js" title="JavaScript"></i>
+                                <i class="fab fa-bootstrap" title="Bootstrap"></i>
+                            </div>
+                            <a href="https://geekypawz.github.io/Memory-Game/" target="_blank" class="btn btn-outline-primary btn-sm me-2" data-lang="live-demo">Demo en vivo</a>
+                        </div>
+                    </div>
+                </div>
+            <div class="text-center">
+                <button id="showMore" class="btn btn-outline-primary">Ver más</button>
+                <button id="showLess" class="btn btn-outline-primary" style="display: none;">- Mostrar menos</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content text-center">
+                <p class="lead mb-4">¡Conéctate conmigo! Sígueme en redes sociales para ver más de mis proyectos y estar al tanto de mis últimas creaciones.</p>
+                <div class="social-icons d-flex justify-content-center gap-4">
+                    <a href="https://github.com/GeekyPawz" class="contact-social-link" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://x.com/GeekyPawz" class="contact-social-link" target="_blank" title="X">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/geekypawz/" class="contact-social-link" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="py-4 text-center">
+        <p>2025 | GeekyPawz <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
