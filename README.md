@@ -7,7 +7,7 @@
 - Built with modern web development tools: HTML, CSS, and JavaScript.
 
 ## Live Demo
-Check out the live project here: [Porfolio](https://geekypawz.github.io/geekypawz.github.io/)
+Check out the live project here: [Porfolio](https://alyrakku.github.io/)
 
 ## Technologies Used
 - **HTML5**: For the structure of the website.
